@@ -1,0 +1,185 @@
+/*Css para generar la figura de la CRUZ y la definición del color en gradiente.*/
+.cross {
+  /*Background dependiendo del navegador*/
+  background: rgba(40,138,230,1);
+  background: -moz-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(40,138,230,1)), color-stop(48%, rgba(40,138,230,1)), color-stop(68%, rgba(24,109,205,1)), color-stop(100%, rgba(24,109,205,1)));
+  background: -webkit-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -o-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -ms-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: linear-gradient(to right, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#288ae6', endColorstr='#186dcd', GradientType=1 );
+  /*---------*/
+  height: 70px;
+  position: relative;
+  width: 30px;
+}
+.cross:after {
+  /*Background dependiendo del navegador*/
+  background: redrgba(40,138,230,1);
+  background: -moz-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(40,138,230,1)), color-stop(48%, rgba(40,138,230,1)), color-stop(68%, rgba(24,109,205,1)), color-stop(100%, rgba(24,109,205,1)));
+  background: -webkit-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -o-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: -ms-linear-gradient(left, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  background: linear-gradient(to right, rgba(40,138,230,1) 0%, rgba(40,138,230,1) 48%, rgba(24,109,205,1) 68%, rgba(24,109,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#288ae6', endColorstr='#186dcd', GradientType=1 );
+  /*---------*/
+  content: "";
+  height: 30px;
+  left: -20px;
+  position: absolute;
+  top: 20px;
+  width: 70px;
+}
+/*--------------------------------------------------------------*/
+
+/*Css para generar la figura de CORAZON y la definición del color en gradiente.*/
+.heart {
+    position: relative;
+    width: 70px;
+    height: 60px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 35px;
+    top: 0;
+    width: 35px;
+    height: 65px;
+    /*Background dependiendo del navegador*/
+    background: rgba(252,236,252,1);
+    background: -moz-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 41%, rgba(253,137,215,1) 62%, rgba(255,124,216,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,236,252,1)), color-stop(41%, rgba(251,166,225,1)), color-stop(62%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
+    background: -webkit-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 41%, rgba(253,137,215,1) 62%, rgba(255,124,216,1) 100%);
+    background: -o-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 41%, rgba(253,137,215,1) 62%, rgba(255,124,216,1) 100%);
+    background: -ms-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 41%, rgba(253,137,215,1) 62%, rgba(255,124,216,1) 100%);
+    background: linear-gradient(to right, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 41%, rgba(253,137,215,1) 62%, rgba(255,124,216,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 );
+    /*---------*/
+    -moz-border-radius: 35px 35px 0 0;
+    border-radius: 35px 35px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+/*--------------------------------------------------------------*/
+
+/*Css para generar la figura de la AMATISTA(Hexágono) y la definición del color en gradiente.*/
+.amatist {
+  width: 60px;
+  height: 40px;
+  /*Background dependiendo del navegador*/
+  background: rgba(252,234,187,1);
+  background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(255,255,0,1) 57%, rgba(252,205,77,1) 94%, rgba(248,181,0,1) 100%);
+  background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(255,255,0,1) 57%, rgba(252,205,77,1) 94%, rgba(248,181,0,1) 100%);
+  background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(255,255,0,1) 57%, rgba(252,205,77,1) 94%, rgba(248,181,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#f8b500', GradientType=1 );
+  /*---------*/
+  position: relative;
+}
+.amatist:before {
+	content: "";
+	position: absolute;
+	top: -15px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 15px solid #F2F5A9;
+}
+.amatist:after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 15px solid #F3F781;
+}
+/*--------------------------------------------------------------*/
+
+/*Css para generar la figura de la ESMERALDA(Octagono) y la definición del color en gradiente.*/
+.emerald {
+  width: 70px;
+	height: 70px;
+  /*Background dependiendo del navegador*/
+  background: rgba(11,224,0,1);
+  background: -moz-linear-gradient(left, rgba(11,224,0,1) 0%, rgba(11,224,0,1) 20%, rgba(18,175,50,1) 75%, rgba(18,175,50,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(11,224,0,1)), color-stop(20%, rgba(11,224,0,1)), color-stop(75%, rgba(18,175,50,1)), color-stop(100%, rgba(18,175,50,1)));
+  background: -webkit-linear-gradient(left, rgba(11,224,0,1) 0%, rgba(11,224,0,1) 20%, rgba(18,175,50,1) 75%, rgba(18,175,50,1) 100%);
+  background: -o-linear-gradient(left, rgba(11,224,0,1) 0%, rgba(11,224,0,1) 20%, rgba(18,175,50,1) 75%, rgba(18,175,50,1) 100%);
+  background: -ms-linear-gradient(left, rgba(11,224,0,1) 0%, rgba(11,224,0,1) 20%, rgba(18,175,50,1) 75%, rgba(18,175,50,1) 100%);
+  background: linear-gradient(to right, rgba(11,224,0,1) 0%, rgba(11,224,0,1) 20%, rgba(18,175,50,1) 75%, rgba(18,175,50,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0be000', endColorstr='#12af32', GradientType=1 );
+  /*---------*/
+  position: relative;
+}
+.emerald:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 15px solid #01DF3A;
+	border-left: 15px solid #222;
+	border-right: 15px solid #222;
+	width: 40px;
+	height: 0;
+}
+.emerald:after {
+  content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 15px outset green;
+	border-left: 15px solid #222;
+	border-right: 15px solid #222;
+	width: 40px;
+	height: 0;
+}
+/*--------------------------------------------------------------*/
+
+/*Css para generar la figura de la RUBÍ(Rombo) y la definición del color en gradiente.*/
+.rubi {
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-bottom-color: #FE2E2E;
+	position: relative;
+	top: -35px;
+}
+.rubi:after {
+	content: '';
+	position: absolute;
+	left: -35px;
+	top: 35px;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: red;
+}
+/*--------------------------------------------------------------*/
